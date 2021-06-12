@@ -1,0 +1,188 @@
+#title
+{
+  background-color: #ff4c68;
+  color: white;
+}
+#heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+#image
+{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  right: 25%;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1rem;
+  font-family: 'Montserrat';
+}
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+#features
+{
+  padding: 10rem 0;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+.pos
+{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.pos:hover
+{
+  color: #ff4c68;
+}
+.col h3
+{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 900;
+}
+.col p
+{
+  color: #8f8f8f;
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+#sponsor
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item
+{
+  padding: 10% 15%;
+}
+#dog
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo
+{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 90px 335px;
+}
+#ending
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  color: white;
+  padding-bottom: 100px;
+}
+#cta button
+{
+  margin: 0 10px;
+}
+footer
+{
+  text-align: center;
+  background-color: white;
+  margin: 150px 0;
+}
+#footer p
+{
+  color: grey;
+}
+.icon
+{
+  margin: 0 10px 20px;
+}
+@media (max-width:992px) {
+  #image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+  #title
+  {
+    text-align: center;
+  }
+}
+.emoji:hover {
+  transform: scale(1) translatey(-20px);
+  text-shadow: 0 20px 20px rgba(0,0,0,.3);
+}
+
+.emoji--heart:before {
+  content: '❤️';
+}
+.emoji--heart:hover:before {
+  content: '🍩';
+}
